@@ -1,0 +1,15 @@
+THIS VERSION: 20110517
+
+2011-05-17  - Created github repository, older changes will not be under
+              version control
+            - Added example code
+
+2011-04-24  - Changed date format to YYYY-MM-DD for versioning, bigger
+              integer denotes a newer version
+            - Fixed a bug that would treat False as an integral type but
+              encode it using the 'False' string, attempting to encode a
+              boolean now results in an error
+            - Fixed a bug where an integer value of 0 in a list or
+              dictionary resulted in a parse error while decoding
+
+2011-04-03  - Original release

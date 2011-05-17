@@ -1,0 +1,6 @@
+The code is written for python 3, but code fixes for python 2 that do
+not break python 3 support are always welcome.
+
+Using the module is really straight forward, just put bencoding.py next
+to your source files and import it. Check out example.py to see some
+simple code using the module.
